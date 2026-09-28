@@ -77,10 +77,10 @@ const Home = () => {
 
       <section className="relative py-20 bg-gray-100 dark:bg-gray-500 transition-colors duration-300">
         <h2 className="text-black dark:text-white text-4xl font-bold text-center transition-colors duration-300">Featured Courses</h2>
-        <div className="flex items-center justify-center flex-col md:flex-row gap-1 md:gap-5 px-7 mt-4">
+        <div className="flex items-start justify-center flex-col md:flex-row gap-1 md:gap-5 px-7 mt-4">
           <Search 
             size={20} 
-            className="absolute left-12 top-4/12 sm:top-1/4 md:top-1/3 md:mt-4 text-gray-400"
+            className="absolute left-12 top-1/60 mt-1 sm:top-1/4 md:top-1/3 md:mt-4 text-gray-400"
           />
           <input
             type="text"
