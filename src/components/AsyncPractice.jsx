@@ -95,10 +95,10 @@ const AsyncPractice = () => {
 
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-start gap-1 md:gap-5">
+      <div className="relative flex flex-col md:flex-row items-start gap-1 md:gap-5">
         <Search 
           size={20} 
-          className="absolute left-16 md:left-26 lg:left-26 md:top-5/9 mt-5 md:mt-21 -translate-y-1/2 text-gray-400"
+          className="absolute left-5 md:left-5 md:top-1/17 mt-5 md:mt-4 -translate-y-1/2 text-gray-400"
         />
         {/* Search box for filtering courses */}
         <input
